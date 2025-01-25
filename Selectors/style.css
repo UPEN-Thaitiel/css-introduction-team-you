@@ -1,1 +1,20 @@
-/* Write your code here: */
+ul p.done {
+    color: black;
+}
+h1, h2 {
+    color: purple;
+}
+p.done {
+    color: red;
+}
+ul.list li:nth-child(1) {
+    color: blue;
+}
+ul.list li.done {
+    color: green;
+}
+
+p:last-of-type {
+    font-weight: bold;
+}
+
